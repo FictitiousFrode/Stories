@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x02C340C8" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x02C4E208"/>
+  <item nodeId="node-0x02C340C8">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">WARNING&#x000A;&#x000A;This is a game of Adult Interactive Fiction. It contains scenes and imagery of an explicit sexual nature intended for a mature audience. If you are underaged, easily offended or not interested in this kind of material, please quit now.&#x000A;&#x000A;(-more-)</result>
+    <commentary xml:space="preserve">WARNING&#x000A;&#x000A;This is a game of Adult Interactive Fiction. It contains scenes and imagery of an explicit sexual nature intended for a mature audience. If you are underaged, easily offended or not interested in this kind of material, please quit now.&#x000A;&#x000A;(-more-)</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02CEFC70"/>
+      <child nodeId="node-0x02C40300"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02CEFC70">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">The story makes use of concepts and actions related to the adult nature of the story in addition to the usual Interactive Fiction commands.&#x000A;Type "HELP" to access the built-in help system for details on how the erotic actions, cloth and body parts functions.&#x000A;&#x000A;(-more-)</result>
+    <commentary xml:space="preserve">Australia, Western Desert&#x000A;&#x000A;&#x000A;                                               Friday&#x000A;                                            February 12th&#x000A;                                                1932&#x000A;&#x000A;Stepping out of your tent into the blazing Australian sun, you think to yourself This day will go into the history books as the day when Nathaniel D. Winslee's discoveries changed the written history of the Australian continent. Well, one can dream atleast, but that was the vision you had for yourself when you started on this archaeological excavation in the Australian northwestern desert, based on the theories of your dear colleague Susan Hartford. Unfortunately, all you have to show for it so far is a whole lot of shifted and sifted sand.&#x000A;&#x000A; Looking at the southern horizon, you see a plume of dust moving away from your camp. Judging by the empty place where your truck used to be, you hazard a guess that the plume is from your research assistant Mark having left early for the planned supply run.&#x000A;&#x000A;Mirages&#x000A;Lost Dreams by Fictitious Frode&#x000A;Release 0 / Serial number 160928 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Digsite Campgrounds&#x000A;A ramshackle collection of tents make up the campsite for your small team of intrepid explorers to give some protection from the blistering southern sun. Besides the tents are a water tank and stacks of crates, which remain empty upon awaiting your discoveries. Besides them is room for the truck, which is currently on a supply run with your assistant Mark.&#x000A; The campsite is set up on the south side of the main digsite. Behind a rock to the east lies your rudimentary sanitary facilities. You could also enter your tent.&#x000A;&#x000A;Susan is here, surveying the campsite.&#x000A;&#x000A;There are exits north, east, and inside.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02CEFDB8"/>
+      <child nodeId="node-0x02C3B4B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02CEFDB8">
+    <command xml:space="preserve">strip</command>
+    <result xml:space="preserve">It is too public for you to take that off here.&#x000A;&#x000A;You are unable to take off your clothes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02CEFE28"/>
+      <child nodeId="node-0x02C3B0F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02CEFE28">
+    <command xml:space="preserve">actions</command>
+    <result xml:space="preserve">Actions listing on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02CEFE98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02CEFE98">
+    <command xml:space="preserve">strip</command>
+    <result xml:space="preserve">[stripping yourself]&#x000A;[(1) taking off the khaki jacket - silently]&#x000A;It is too public for you to take that off here.&#x000A;[(1) taking off the khaki jacket - silently - failed the can't take off in public rule]&#x000A;&#x000A;This should not have happened; please report this as a bug.&#x000A;[stripping yourself - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02C3B0F8">
+    <command xml:space="preserve">strip susan</command>
+    <result xml:space="preserve">That seems to belong to Susan.&#x000A;&#x000A;You are unable to take off her clothes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02C3B4B0">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">Certainly, many persons have dreamed intrinsically stranger things-things compounded of unrelated scraps of daily life, pictures, and reading, and arranged in fantastically novel forms by the unchecked caprices of sleep. For some time I accepted the visions as natural, even though I had never before been an extravagant dreamer.&#x000A;&#x000A; -H.P. Lovecraft, The Shadow out of Time&#x000A;&#x000A;Please press SPACE to continue.</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B392490"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B392490">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">Australia, Western Desert&#x000A;&#x000A;&#x000A;                                               Friday&#x000A;                                            February 12th&#x000A;                                                1932&#x000A;&#x000A;Stepping out of your tent into the blazing Australian sun, you think to yourself This day will go into the history books as the day when Nathaniel D. Winslee's discoveries changed the written history of the Australian continent. Well, one can dream atleast, but that was the vision you had for yourself when you started on this archaeological excavation in the Australian northwestern desert, based on the theories of your dear colleague Susan Hartford. Unfortunately, all you have to show for it so far is a whole lot of shifted and sifted sand.&#x000A;&#x000A; Looking at the southern horizon, you see a plume of dust moving away from your camp. Judging by the empty place where your truck used to be, you hazard a guess that the plume is from your research assistant Mark having left early for the planned supply run.&#x000A;&#x000A;Mirages&#x000A;Lost Dreams by Fictitious Frode&#x000A;Release 0 / Serial number 161016 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Digsite Campgrounds&#x000A;A ramshackle collection of tents make up the campsite for your small team of intrepid explorers to give some protection from the blistering southern sun. Besides the tents are a water tank and stacks of crates, which remain empty upon awaiting your discoveries. Besides them is room for the truck, which is currently on a supply run with your assistant Mark.&#x000A; The campsite is set up on the south side of the main digsite. Behind a rock to the east lies your rudimentary sanitary facilities. You could also enter your tent.&#x000A;&#x000A;Susan is here, surveying the campsite.&#x000A;&#x000A;There are exits north, east, and inside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B3925D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B3925D0">
+    <command xml:space="preserve">strip susan</command>
+    <result xml:space="preserve">It is too public for you to take that off here.&#x000A;&#x000A;You are unable to take off her clothes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B392718"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B392718">
+    <command xml:space="preserve">strip</command>
+    <result xml:space="preserve">It is too public for you to take that off here.&#x000A;&#x000A;You are unable to take off your clothes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B392A00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B392A00">
+    <command xml:space="preserve">in</command>
+    <result xml:space="preserve">Your Tent&#x000A;Your canvas tent gives you a brief respite from the sweltering hot sun, but the ambient temperature is still uncomfortably hot. There's not much to see in here, just a bedroll and your notebook.&#x000A; A flap in the tent gives access to the campground outsite.&#x000A;&#x000A;Digsite Campgrounds is outside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B392AE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B392AE0">
+    <command xml:space="preserve">strip</command>
+    <result xml:space="preserve">You are unable to take off your clothes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B392C70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B392C70">
+    <command xml:space="preserve">rules</command>
+    <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C3FFF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C3FFF0">
+    <command xml:space="preserve">strip</command>
+    <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[Rule "implicit stripping rule" applies.]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "can only strip people rule" applies.]&#x000A;[Rule "can't strip naked people rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "default stripping rule" applies.]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "Before doing something to a garment ( called G )" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "can't take off covered items rule" applies.]&#x000A;[Rule "can't take off in public rule" applies.]&#x000A;[Rule "taking off garments requires consent rule" applies.]&#x000A;[Rule "undressing default consent rule" applies.]&#x000A;[Rule "default consent rule" applies.]&#x000A;[Rule "after stage rule" applies.]&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "report stripping rule" applies.]&#x000A;You are unable to take off your clothes.&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;&#x000A;[Rule "A first turn sequence rule" applies.]&#x000A;[Rule "agency stage rule" applies.]&#x000A;[Rule "reaction is instantaneous rule" applies.]&#x000A;[Rule "every turn stage rule" applies.]&#x000A;[Rule "agency cleanup rule" applies.]&#x000A;[Rule "A last turn sequence rule" applies.]&#x000A;[Rule "notify score changes rule" applies.]&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C40060"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C40060">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "print empty inventory rule" applies.]&#x000A;[Rule "print standard inventory rule" applies.]&#x000A;You are carrying:&#x000A;  some khaki trousers (being worn)&#x000A;  a khaki jacket (being worn)&#x000A;  an white undershirt (being worn)&#x000A;  a pair of white underpants (being worn)&#x000A;  a compass&#x000A;[Rule "after stage rule" applies.]&#x000A;&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "report other people taking inventory rule" applies.]&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;[Rule "A first turn sequence rule" applies.]&#x000A;[Rule "agency stage rule" applies.]&#x000A;[Rule "reaction is instantaneous rule" applies.]&#x000A;[Rule "every turn stage rule" applies.]&#x000A;[Rule "agency cleanup rule" applies.]&#x000A;[Rule "A last turn sequence rule" applies.]&#x000A;[Rule "notify score changes rule" applies.]&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C400D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C400D0">
+    <command xml:space="preserve">actions</command>
+    <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]&#x000A;Actions listing on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C40140"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C40140">
+    <command xml:space="preserve">strip</command>
+    <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[Rule "implicit stripping rule" applies.]&#x000A;[stripping yourself]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "can only strip people rule" applies.]&#x000A;[Rule "can't strip naked people rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "default stripping rule" applies.]&#x000A;[(1) taking off the khaki jacket - silently]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "Before doing something to a garment ( called G )" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "can't take off covered items rule" applies.]&#x000A;[Rule "can't take off in public rule" applies.]&#x000A;[Rule "taking off garments requires consent rule" applies.]&#x000A;[Rule "undressing default consent rule" applies.]&#x000A;[Rule "default consent rule" applies.]&#x000A;[(1) taking off the khaki jacket - silently - failed the taking off garments requires consent rule]&#x000A;&#x000A;[Rule "after stage rule" applies.]&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "report stripping rule" applies.]&#x000A;You are unable to take off your clothes.&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;[stripping yourself - succeeded]&#x000A;&#x000A;[Rule "A first turn sequence rule" applies.]&#x000A;[Rule "agency stage rule" applies.]&#x000A;[Rule "reaction is instantaneous rule" applies.]&#x000A;[Rule "every turn stage rule" applies.]&#x000A;[Rule "agency cleanup rule" applies.]&#x000A;[Rule "A last turn sequence rule" applies.]&#x000A;[Rule "notify score changes rule" applies.]&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C401B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C401B0">
+    <command xml:space="preserve">take of jacket</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C40220"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C40220">
+    <command xml:space="preserve">x jacket</command>
+    <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[examining the khaki jacket]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "Before doing something to a garment ( called G )" applies.]&#x000A;[Rule "can't act in the dark rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "standard examining rule" applies.]&#x000A;[Rule "examining people rule" applies.]&#x000A;[Rule "examine directions rule" applies.]&#x000A;[Rule "examine containers rule" applies.]&#x000A;[Rule "examine supporters rule" applies.]&#x000A;[Rule "examine devices rule" applies.]&#x000A;[Rule "examining body parts rule" applies.]&#x000A;[Rule "examining garments rule" applies.]&#x000A;Your khaki jacket fits loosely over your torso.&#x000A;&#x000A;[Rule "examine undescribed things rule" applies.]&#x000A;[Rule "after stage rule" applies.]&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "report other people examining rule" applies.]&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;[examining the khaki jacket - succeeded]&#x000A;&#x000A;[Rule "A first turn sequence rule" applies.]&#x000A;[Rule "agency stage rule" applies.]&#x000A;[Rule "reaction is instantaneous rule" applies.]&#x000A;[Rule "every turn stage rule" applies.]&#x000A;[Rule "agency cleanup rule" applies.]&#x000A;[Rule "A last turn sequence rule" applies.]&#x000A;[Rule "notify score changes rule" applies.]&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C40290"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C40290">
+    <command xml:space="preserve">wear jacket</command>
+    <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[wearing the khaki jacket]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "Before doing something to a garment ( called G )" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "outfit incompatibility rule" applies.]&#x000A;[Rule "check wearing garments rule" applies.]&#x000A;[Rule "check garment size rule" applies.]&#x000A;[Rule "wearing decency rule" applies.]&#x000A;[Rule "wearing requires consent rule" applies.]&#x000A;[Rule "dressing default consent rule" applies.]&#x000A;[Rule "default consent rule" applies.]&#x000A;[wearing the khaki jacket - failed the wearing requires consent rule]&#x000A;&#x000A;[Rule "A first turn sequence rule" applies.]&#x000A;[Rule "agency stage rule" applies.]&#x000A;[Rule "reaction is instantaneous rule" applies.]&#x000A;[Rule "every turn stage rule" applies.]&#x000A;[Rule "agency cleanup rule" applies.]&#x000A;[Rule "A last turn sequence rule" applies.]&#x000A;[Rule "notify score changes rule" applies.]&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02C40300">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">This story includes the following types of content:&#x000A;&#x000A;Mandatory:&#x000A;(*) Heterosexuality&#x000A;&#x000A;Optional:&#x000A;( ) Bondage&#x000A;(*) Player Dominance&#x000A;( ) Player Submission&#x000A;&#x000A;Would you like to modify which of the optional content types to experience? (Y/N)</result>
+    <commentary xml:space="preserve">This story includes the following types of content:&#x000A;&#x000A;Mandatory:&#x000A;(*) Heterosexuality&#x000A;&#x000A;Optional:&#x000A;( ) Bondage&#x000A;(*) Player Dominance&#x000A;( ) Player Submission&#x000A;&#x000A;Would you like to modify which of the optional content types to experience? (Y/N)</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02C40370"/>
+      <child nodeId="node-0x02C47958"/>
+      <child nodeId="node-0x02C4DD38"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C40370">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Certainly, many persons have dreamed intrinsically stranger things-things compounded of unrelated scraps of daily life, pictures, and reading, and arranged in fantastically novel forms by the unchecked caprices of sleep. For some time I accepted the visions as natural, even though I had never before been an extravagant dreamer.&#x000A;&#x000A; -H.P. Lovecraft, The Shadow out of Time&#x000A;&#x000A;Please press SPACE to continue.</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C403E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C403E0">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C40450"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C40450">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">Australia, Western Desert&#x000A;&#x000A;&#x000A;                                               Friday&#x000A;                                            February 12th&#x000A;                                                1932&#x000A;&#x000A;Stepping out of your tent into the blazing Australian sun, you think to yourself This day will go into the history books as the day when Nathaniel D. Winslee's discoveries changed the written history of the Australian continent. Well, one can dream atleast, but that was the vision you had for yourself when you started on this archaeological excavation in the Australian northwestern desert, based on the theories of your dear colleague Susan Hartford. Unfortunately, all you have to show for it so far is a whole lot of shifted and sifted sand.&#x000A;&#x000A; Looking at the southern horizon, you see a plume of dust moving away from your camp. Judging by the empty place where your truck used to be, you hazard a guess that the plume is from your research assistant Mark having left early for the planned supply run.&#x000A;&#x000A;Mirages&#x000A;Lost Dreams by Fictitious Frode&#x000A;Release 0 / Serial number 161016 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Digsite Campgrounds&#x000A;A ramshackle collection of tents make up the campsite for your small team of intrepid explorers to give some protection from the blistering southern sun. Besides the tents are a water tank and stacks of crates, which remain empty upon awaiting your discoveries. Besides them is room for the truck, which is currently on a supply run with your assistant Mark.&#x000A; The campsite is set up on the south side of the main digsite. Behind a rock to the east lies your rudimentary sanitary facilities. You could also enter your tent.&#x000A;&#x000A;Susan is here, surveying the campsite.&#x000A;&#x000A;There are exits north, east, and inside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C404C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C404C0">
+    <command xml:space="preserve">in</command>
+    <result xml:space="preserve">Your Tent&#x000A;Your canvas tent gives you a brief respite from the sweltering hot sun, but the ambient temperature is still uncomfortably hot. There's not much to see in here, just a bedroll and your notebook.&#x000A; A flap in the tent gives access to the campground outsite.&#x000A;&#x000A;Digsite Campgrounds is outside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C40530"/>
+      <child nodeId="node-0x02C47808"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C40530">
+    <command xml:space="preserve">take off jacket</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C405A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C405A0">
+    <command xml:space="preserve">actions</command>
+    <result xml:space="preserve">Actions listing on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C40610"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C40610">
+    <command xml:space="preserve">ake off jacket</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C40680"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C40680">
+    <command xml:space="preserve">take off jacket</command>
+    <result xml:space="preserve">[taking off the khaki jacket]&#x000A;[taking off the khaki jacket - failed the taking off garments requires consent rule]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C406F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C406F0">
+    <command xml:space="preserve">showme yourself</command>
+    <result xml:space="preserve">your former self - person&#x000A;location: out of play&#x000A;singular-named, improper-named; unlit, inedible, portable; male, keep clothes after undress, unoccupied, agency-disabled&#x000A;list grouping key: none&#x000A;printed name: "your former self"&#x000A;printed plural name: "people"&#x000A;indefinite article: none&#x000A;description: none&#x000A;initial appearance: none&#x000A;magical description: "Your enhances senses fail to reveal anything new."&#x000A;carrying capacity: 100&#x000A;current decency: undefined decency&#x000A;body areas: The head area, The face area, The shoulder area, The arm area, The hand area, The upper torso area, The upper back area, The lower torso area, The lower back area, The crotch area, The thigh area, The leg area, and The feet area&#x000A;preferred clothing: &#x000A;clothing size: 0&#x000A;priority: 0&#x000A;agency state description: none&#x000A;current arousal: unaroused&#x000A;orgasms: 0&#x000A;orgasmic attempts: 0&#x000A;orgasm reset arousal: aroused&#x000A;uninterested response: ""That's not going to happen," your former self says cooly."&#x000A;unaroused response: ""Not yet," your former self says softly."&#x000A;love interests: &#x000A;clothing threshold: slightly aroused&#x000A;soft-play threshold: unaroused&#x000A;soft-play performer limit: slightly aroused&#x000A;soft-play recipient limit: slightly aroused&#x000A;rough-play threshold: very aroused&#x000A;rough-play performer limit: very aroused&#x000A;rough-play recipient limit: very aroused&#x000A;oral-play threshold: aroused&#x000A;oral-play performer limit: very aroused&#x000A;oral-play recipient limit: very aroused&#x000A;fuck-play threshold: aroused&#x000A;fuck-play performer limit: very aroused&#x000A;fuck-play recipient limit: very aroused&#x000A;default ask quip: quip_null&#x000A;default tell quip: quip_dtell&#x000A;greeting: quip_null&#x000A;litany: Table of No Conversation&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C40760"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C40760">
+    <command xml:space="preserve">showme nate</command>
+    <result xml:space="preserve">There seems to be no such object anywhere in the model world.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C47798"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C47798">
+    <command xml:space="preserve">showme jacket</command>
+    <result xml:space="preserve">(the khaki jacket)&#x000A;khaki jacket - jacket&#x000A;location: worn by yourself in Your Tent&#x000A;singular-named, improper-named; unlit, inedible, portable, wearable, handled; opaque, block touching through, shiftable, unshifted, default cover blocking&#x000A;list grouping key: none&#x000A;printed name: "khaki jacket"&#x000A;printed plural name: "jackets"&#x000A;indefinite article: "a"&#x000A;description: none&#x000A;initial appearance: none&#x000A;magical description: "Your enhances senses fail to reveal anything new."&#x000A;cloth decency: formal&#x000A;clothing size: 0&#x000A;cover areas: The arm area, The shoulder area, The upper torso area, The lower torso area, The upper back area, and The lower back area&#x000A;shifting revealed cover areas: The upper torso area and The lower torso area&#x000A;ripping revealed cover areas: &#x000A;ripped description: none&#x000A;shifted description: "Your khaki jacket is unbuttoned."&#x000A;worn description: "Your khaki jacket fits loosely over your torso."&#x000A;unworn description: "It's a standard issue khaki jacket."&#x000A;wearer's pronoun: "my"&#x000A;short description: none&#x000A;clothing threshold: slightly aroused&#x000A;shiftyness: buttonable&#x000A;clothing layer: outerwear&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02C47808">
+    <command xml:space="preserve">actions</command>
+    <result xml:space="preserve">Actions listing on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C47878"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C47878">
+    <command xml:space="preserve">take off jacket</command>
+    <result xml:space="preserve">[taking off the khaki jacket]&#x000A;You take off the khaki jacket.&#x000A;[taking off the khaki jacket - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C478E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C478E8">
+    <command xml:space="preserve">strip</command>
+    <result xml:space="preserve">[stripping yourself]&#x000A;[(1) taking off the khaki trousers - silently]&#x000A;[(1) taking off the khaki trousers - silently - succeeded]&#x000A;&#x000A;[(1) taking off the white undershirt - silently]&#x000A;[(1) taking off the white undershirt - silently - succeeded]&#x000A;&#x000A;[(1) taking off the pair of white underpants - silently]&#x000A;[(1) taking off the pair of white underpants - silently - succeeded]&#x000A;&#x000A;You take off all your clothes and is now completely naked.&#x000A;[stripping yourself - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02C47958">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The story makes use of concepts and actions related to the adult nature of the story in addition to the usual Interactive Fiction commands.&#x000A;Type "HELP" to access the built-in help system for details on how the erotic actions, cloth and body parts functions.&#x000A;&#x000A;(-more-)</result>
+    <commentary xml:space="preserve">The story makes use of concepts and actions related to the adult nature of the story in addition to the usual Interactive Fiction commands.&#x000A;Type "HELP" to access the built-in help system for details on how the erotic actions, cloth and body parts functions.&#x000A;&#x000A;(-more-)</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02C479C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C479C8">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Certainly, many persons have dreamed intrinsically stranger things-things compounded of unrelated scraps of daily life, pictures, and reading, and arranged in fantastically novel forms by the unchecked caprices of sleep. For some time I accepted the visions as natural, even though I had never before been an extravagant dreamer.&#x000A;&#x000A; -H.P. Lovecraft, The Shadow out of Time&#x000A;&#x000A;(-more-)</result>
+    <commentary xml:space="preserve">Certainly, many persons have dreamed intrinsically stranger things-things compounded of unrelated scraps of daily life, pictures, and reading, and arranged in fantastically novel forms by the unchecked caprices of sleep. For some time I accepted the visions as natural, even though I had never before been an extravagant dreamer.&#x000A;&#x000A; -H.P. Lovecraft, The Shadow out of Time&#x000A;&#x000A;Please press SPACE to continue.</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02C47A38"/>
+      <child nodeId="node-0x02C4DB08"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C47A38">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Australia, Western Desert&#x000A;&#x000A;&#x000A;                                                       Friday&#x000A;                                                   February 12th&#x000A;                                                        1932&#x000A;&#x000A;Stepping out of your tent into the blazing Australian sun, you think to yourself This day will go into the history books as the day when Nathaniel D. Winslee's discoveries changed the written history of the Australian continent. Well, one can dream atleast, but that was the vision you had for yourself when you started on this archaeological excavation in the Australian northwestern desert, based on the theories of your dear colleague Susan Hartford. Unfortunately, all you have to show for it so far is a whole lot of shifted and sifted sand.&#x000A;&#x000A; Looking at the southern horizon, you see a plume of dust moving away from your camp. Judging by the empty place where your truck used to be, you hazard a guess that the plume is from your research assistant Mark having left early for the planned supply run.&#x000A;&#x000A;Mirages&#x000A;A Dream Voyage by Fictitious Frode&#x000A;Release 0 / Serial number 161220 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Digsite Campgrounds&#x000A;A ramshackle collection of tents make up the campsite for your small team of intrepid explorers to give some protection from the blistering southern sun. Besides the tents are a water tank and stacks of crates, which remain empty upon awaiting your discoveries. Besides them is room for the truck, which is currently on a supply run with your assistant Mark.&#x000A; The campsite is set up on the south side of the main digsite. Behind a rock to the east lies your rudimentary sanitary facilities. You could also enter your tent.&#x000A;&#x000A;Susan is here, surveying the campsite.&#x000A;&#x000A;There are exits north, east, and inside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C47AA8"/>
+      <child nodeId="node-0x02C47CD8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C47AA8">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">Australia, Western Desert&#x000A;&#x000A;&#x000A;                                                       Friday&#x000A;                                                   February 12th&#x000A;                                                        1932&#x000A;&#x000A;Stepping out of your tent into the blazing Australian sun, you think to yourself This day will go into the history books as the day when Nathaniel D. Winslee's discoveries changed the written history of the Australian continent. Well, one can dream atleast, but that was the vision you had for yourself when you started on this archaeological excavation in the Australian northwestern desert, based on the theories of your dear colleague Susan Hartford. Unfortunately, all you have to show for it so far is a whole lot of shifted and sifted sand.&#x000A;&#x000A; Looking at the southern horizon, you see a plume of dust moving away from your camp. Judging by the empty place where your truck used to be, you hazard a guess that the plume is from your research assistant Mark having left early for the planned supply run.&#x000A;&#x000A;Mirages&#x000A;A Dream Voyage by Fictitious Frode&#x000A;Release 0 / Serial number 161220 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Digsite Campgrounds&#x000A;A ramshackle collection of tents make up the campsite for your small team of intrepid explorers to give some protection from the blistering southern sun. Besides the tents are a water tank and stacks of crates, which remain empty upon awaiting your discoveries. Besides them is room for the truck, which is currently on a supply run with your assistant Mark.&#x000A; The campsite is set up on the south side of the main digsite. Behind a rock to the east lies your rudimentary sanitary facilities. You could also enter your tent.&#x000A;&#x000A;Susan is here, surveying the campsite.&#x000A;&#x000A;There are exits north, east, and inside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C47B18"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C47B18">
+    <command xml:space="preserve">talk to susan</command>
+    <result xml:space="preserve">You can talk with Susan about how the excavation is going.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C47B88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C47B88">
+    <command xml:space="preserve">talk to susan about excavation</command>
+    <result xml:space="preserve">That isn't available.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C47BF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C47BF8">
+    <command xml:space="preserve">rules</command>
+    <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C47C68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C47C68">
+    <command xml:space="preserve">talk to susan about excavation</command>
+    <result xml:space="preserve">[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "mark person as occupied rule" applies.]&#x000A;That isn't available.&#x000A;&#x000A;[Rule "A first turn sequence rule" applies.]&#x000A;[Rule "agency stage rule" applies.]&#x000A;[Rule "every turn stage rule" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "A rule for deciding the concealed possessions of someone" applies.]&#x000A;[Rule "agency cleanup rule" applies.]&#x000A;[Rule "A last turn sequence rule" applies.]&#x000A;[Rule "notify score changes rule" applies.]&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02C47CD8">
+    <command xml:space="preserve">talk to susan</command>
+    <result xml:space="preserve">You can talk with Susan about how the excavation is going.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C47D48"/>
+      <child nodeId="node-0x02C47E98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C47D48">
+    <command xml:space="preserve">talk to susan about excavation</command>
+    <result xml:space="preserve">That isn't available.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C47E28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C47E28">
+    <command xml:space="preserve">epistat excavation</command>
+    <result xml:space="preserve">excavation - unseen / familiar / known.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02C47E98">
+    <command xml:space="preserve">talk to susan about love</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C47F08"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C47F08">
+    <command xml:space="preserve">talk to susan about excavation</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02C4DB08">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">Australia, Western Desert&#x000A;&#x000A;&#x000A;                                                       Friday&#x000A;                                                   February 12th&#x000A;                                                        1932&#x000A;&#x000A;Stepping out of your tent into the blazing Australian sun, you think to yourself This day will go into the history books as the day when Nathaniel D. Winslee's discoveries changed the written history of the Australian continent. Well, one can dream atleast, but that was the vision you had for yourself when you started on this archaeological excavation in the Australian northwestern desert, based on the theories of your dear colleague Susan Hartford. Unfortunately, all you have to show for it so far is a whole lot of shifted and sifted sand.&#x000A;&#x000A; Looking at the southern horizon, you see a plume of dust moving away from your camp. Judging by the empty place where your truck used to be, you hazard a guess that the plume is from your research assistant Mark having left early for the planned supply run.&#x000A;&#x000A;Mirages&#x000A;A Dream Voyage by Fictitious Frode&#x000A;Release 0 / Serial number 161220 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Digsite Campgrounds&#x000A;A ramshackle collection of tents make up the campsite for your small team of intrepid explorers to give some protection from the blistering southern sun. Besides the tents are a water tank and stacks of crates, which remain empty upon awaiting your discoveries. Besides them is room for the truck, which is currently on a supply run with your assistant Mark.&#x000A; The campsite is set up on the south side of the main digsite. Behind a rock to the east lies your rudimentary sanitary facilities. You could also enter your tent.&#x000A;&#x000A;Susan is here, surveying the campsite.&#x000A;&#x000A;There are exits north, east, and inside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4DB78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4DB78">
+    <command xml:space="preserve">talk to susan</command>
+    <result xml:space="preserve">You can talk with Susan about how the excavation is going.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4DBE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4DBE8">
+    <command xml:space="preserve">talk to susan about love</command>
+    <result xml:space="preserve">Those aren't available.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4DC58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4DC58">
+    <command xml:space="preserve">talk to susan about artifact</command>
+    <result xml:space="preserve">That noun did not make sense in this context.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4DCC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4DCC8">
+    <command xml:space="preserve">talk to susan about talisman</command>
+    <result xml:space="preserve">Which do you mean, the dreamer's talisman or Now the dreamer's talisman?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02C4DD38">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Please answer yes or no.&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4DDA8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4DDA8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The story makes use of concepts and actions related to the adult nature of the story in addition to the usual Interactive Fiction commands.&#x000A;Type "HELP" to access the built-in help system for details on how the erotic actions, cloth and body parts functions.&#x000A;&#x000A;(-more-)</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4DE18"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4DE18">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Certainly, many persons have dreamed intrinsically stranger things-things compounded of unrelated scraps of daily life, pictures, and reading, and arranged in fantastically novel forms by the unchecked caprices of sleep. For some time I accepted the visions as natural, even though I had never before been an extravagant dreamer.&#x000A;&#x000A; -H.P. Lovecraft, The Shadow out of Time&#x000A;&#x000A;(-more-)</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4DE88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4DE88">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Australia, Western Desert&#x000A;&#x000A;&#x000A;                                                       Friday&#x000A;                                                   February 12th&#x000A;                                                        1932&#x000A;&#x000A;Stepping out of your tent into the blazing Australian sun, you think to yourself This day will go into the history books as the day when Nathaniel D. Winslee's discoveries changed the written history of the Australian continent. Well, one can dream atleast, but that was the vision you had for yourself when you started on this archaeological excavation in the Australian northwestern desert, based on the theories of your dear colleague Susan Hartford. Unfortunately, all you have to show for it so far is a whole lot of shifted and sifted sand.&#x000A;&#x000A; Looking at the southern horizon, you see a plume of dust moving away from your camp. Judging by the empty place where your truck used to be, you hazard a guess that the plume is from your research assistant Mark having left early for the planned supply run.&#x000A;&#x000A;Mirages&#x000A;A Dream Voyage by Fictitious Frode&#x000A;Release 0 / Serial number 161221 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Digsite Campgrounds&#x000A;A ramshackle collection of tents make up the campsite for your small team of intrepid explorers to give some protection from the blistering southern sun. Besides the tents are a water tank and stacks of crates, which remain empty upon awaiting your discoveries. Besides them is room for the truck, which is currently on a supply run with your assistant Mark.&#x000A; The campsite is set up on the south side of the main digsite. Behind a rock to the east lies your rudimentary sanitary facilities. You could also enter your tent.&#x000A;&#x000A;Susan is here, surveying the campsite.&#x000A;&#x000A;There are exits north, east, and inside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4DEF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4DEF8">
+    <command xml:space="preserve">talk to susan</command>
+    <result xml:space="preserve">You can talk with Susan about how the excavation is going.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4DF68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4DF68">
+    <command xml:space="preserve">talk to susan about excavation</command>
+    <result xml:space="preserve">"How is the work here progressing?" you ask her.&#x000A;&#x000A;"It's slow work as you know, but I'm absolutely certain that there is something important here, we just have to find it!" she replies, her voice rising with agitation.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4DFD8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4DFD8">
+    <command xml:space="preserve">talk to susan about love</command>
+    <result xml:space="preserve">Just as you're about to ask her about her love life, your courage fails you. Damn that woman.&#x000A;&#x000A;Dig This!&#x000A;Love This!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4E048"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4E048">
+    <command xml:space="preserve">talk to susan about talisman</command>
+    <result xml:space="preserve">Susan doesn't know what to say about nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4E0B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4E0B8">
+    <command xml:space="preserve">talk to susan about librarian</command>
+    <result xml:space="preserve">Susan doesn't know what to say about nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4E128"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4E128">
+    <command xml:space="preserve">talk to susan about foo</command>
+    <result xml:space="preserve">Susan doesn't know what to say about nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4E198"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4E198">
+    <command xml:space="preserve">talk to susan about love</command>
+    <result xml:space="preserve">Just as you're about to ask her about her love life, your courage fails you. Damn that woman.&#x000A;&#x000A;Dig This!&#x000A;Love This!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4E208"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4E208">
+    <command xml:space="preserve">talk to susan</command>
+    <result xml:space="preserve">You can talk with Susan about how the excavation is going and how love sucks.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+</Skein>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>024ABF5B-600D-4665-9DB1-9EFE767BCC52</ifid>
+            <format>glulx</format>
+        </identification>
+        <bibliographic>
+            <title>Mirages</title>
+            <author>Fictitious Frode</author>
+            <headline>A Dream Voyage</headline>
+            <genre>Erotica</genre>
+            <firstpublished>2016</firstpublished>
+            <description>It's February 1932, deep in the desert of Western Australian. Nathaniel D. Winslee is a scholar and a gentleman, out to make his mark on the world he's funded an excavation with his colleague Susan Hartford. Who know what strange opportunities lies await in the desert heat?</description>
+            <language>en</language>
+            <group>Inform</group>
+        </bibliographic>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2017-01-26</releasedate>
+                    <version>0</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>6M62</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>6M62</generatorversion>
+            <originated>2017-01-26</originated>
+        </colophon>
+        <glulx>
+            <serial>170126</serial>
+            <release>0</release>
+            <compiler>Inform 7 build 6M62</compiler>
+        </glulx>
+    </story>
+</ifindex>
